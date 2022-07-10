@@ -1,0 +1,7 @@
+- Load and read dataset.
+- Create dataframe (Panda)
+- Visualize data (If necessary)
+- Create training model (Recommend to split dataset in two seperate portion for training and testing to prevent overfitting and improve out of sample accuracy).
+- Training
+- Testing, compare to real value in given dataset.
+- Calculate loss function value (MAE, MSE ...)
