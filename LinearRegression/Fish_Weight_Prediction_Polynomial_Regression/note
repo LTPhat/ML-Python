@@ -1,0 +1,15 @@
+* Load and read dataset.
+* Cleaning data by domain knowledges or outlier detection (Preprocessing data before putting into model).
+ - Outlier detection by Q3 - Q1 quantile equation. (Output values)
+ - Outlier detection by checking independent variables outlier (Input values)
+ - Remove outliers prior to specific outliers from input independent variables.
+ - Convert categorical data (text) to numerical used for training model by one-hot encoding
+    - Create one-hot encoding dataframe by pd.gets_dummmies function.
+    - Remove one of k values that categorical data get to avoid Dummy Variables Trap.
+    - Concatenate and complete the finish dataset to implement model
+ * Training polynomial regression by numpy and scikitlearn with each (Compare)
+ * Visualization
+ * Training polynomial regression with all the independent variables inputs.
+ * Output coef_,
+ * Create dataframe for prediction from testset.
+ * Model Evaluation.
