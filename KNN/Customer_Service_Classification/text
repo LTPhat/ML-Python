@@ -1,1 +1,7 @@
-
+Train_test_split: from sklearn.model_selection import train_test_split
+                  X_train, X_test, y_train, y_test = train_test_split(X,y,test_size = ...,random_state)
+Data Normalization: from sklearn.preprocessing import StandardScaler
+                    StanderScaler().fit(X_train).transfrom(X_train.astype(''))
+KNN sklearn library: from sklearn.neighbors import KNeighborsClassifier
+                      variable = KNeighborsClassifier.fit(n_neighbors = k).fit(X_train,y_train)
+                      
