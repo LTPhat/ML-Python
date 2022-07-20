@@ -1,0 +1,7 @@
+  Step 1. The data were divided into a training sample set and a test sample set. The training sample set was A, A = {a1, a2, …, an}, the category of the sample is expressed as S, S = {W1, W2, …, Ws}, and the test sample set is X, X = {xj|j = 1, 2, …, n}.
+ 	Step 2. Set the initial k value as the initial nearest neighbor to X.
+ 	Step 3. Calculate the distance between the test sample points and all other training sample points.
+ 	Step 4. Sort the obtained distance in ascending order and select the appropriate k value.
+ 	Step 5. Select the closest k known samples.
+ 	Step 6. The category with the highest probability among k known samples was counted.
+ 	Step 7. Determine the category of test sample points as the category obtained by Statistics of Step 6.
