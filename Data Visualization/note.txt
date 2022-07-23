@@ -1,0 +1,8 @@
+Module 1: 
+- Briefly discuss about data visualization and some best practices to keep in mind when creating data visuals
+- Matplotlib
+Module 2:
+- Basic data visualization: Histogram, Line plot, Bar chart, Pie chart, Boxplot, Scatter, Bubble plot
+Module 3:
+- Explore library like seaborn, folium (geospatial data), choropleth maps.
+ 
