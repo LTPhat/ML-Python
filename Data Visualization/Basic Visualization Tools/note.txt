@@ -1,0 +1,17 @@
+pd.read_excel(path, skiprows, skipfooter)
+data.plot(kind = 'area', stack = True/False, alpha, figsize) --> Area plot
+count, edges = np.histogram(data, bin) --> Seperate x range of histogram
+
+Annotate
+Let's annotate this on the plot using the `annotate` method of the **scripting layer** or the **pyplot interface**. We will pass in the following parameters:
+
+*   `s`: str, the text of annotation.
+*   `xy`: Tuple specifying the (x,y) point to annotate (in this case, end point of arrow).
+*   `xytext`: Tuple specifying the (x,y) point to place the text (in this case, start point of arrow).
+*   `xycoords`: The coordinate system that xy is given in - 'data' uses the coordinate system of the object being annotated (default).
+*   `arrowprops`: Takes a dictionary of properties to draw the arrow:
+    *   `arrowstyle`: Specifies the arrow style, `'->'` is standard arrow.
+    *   `connectionstyle`: Specifies the connection type. `arc3` is a straight line.
+    *   `color`: Specifies color of arrow.
+    *   `lw`: Specifies the line width.
+ex: plt.annotate(str,xy,xytext,xycoords)
