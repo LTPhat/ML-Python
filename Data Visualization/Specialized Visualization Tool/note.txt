@@ -1,0 +1,14 @@
+Data preprocessing:
+ - df.rename({old:new},inplace = True)
+ - df.drop([''],inplace = True)
+ - df.set_index([''],inplace = True)
+ - df.reset_index
+PieChart
+ - df.groupby('',axis).sum()
+ - df.plot(kind = 'pie',autopct = "%1.1f%%", startangle = 90, shadow = True, colors, explode, pctdistance)
+Boxplot
+ - Subplots: 
+    fig = plt.figure()
+    ax = fig.add_subplot(nrows,ncols,plot_number) ex: ax = fig.add_subplot(1,2,1)
+Scatter/Bubble
+  - df.plot(kind = 'scatter', x, y, s = norm_columns,alpha, color, figsize)
