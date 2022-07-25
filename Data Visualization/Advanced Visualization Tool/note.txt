@@ -1,0 +1,31 @@
+import warnings
+warnings.filterwarnings('ignore')
+data preprocessing
+
+Waffle Chart:
+- Create total_values variable and calculate the proportion of each category for plotting
+- Determine numbers of tiles for each category 
+- Create a matrix and assign class of each matrix element based on numbers of tiles determined
+- Apply matplotlib to visualize the matrix 
+    plt.matshow(data,cmap)
+    plt.colorbar()
+- Create legend for the waffle chart 
+
+WordCloud:
+- pip install wordcloud
+- from wordcloud import WordCloud, STOPWORDS
+- load datatext by ulrlib
+      variable1 = ulr.request.ulropen(internet_path).read().decode('utf-8')
+- Method: 
+      variable2 = WordCloud(background_color,max_words,stopwords,mask) //to import mask path also use urllib.request.urlopen
+      variable2.generate(variables1)
+- Visualize:
+      fig = plt.figure(figsize)
+      plt.imshow(variable2,interpolation)
+      
+Regplot with seaborn
+- Create dataframe with x,y
+- sns.regplot(data,x,y,color,lw,marker)
+
+
+      
