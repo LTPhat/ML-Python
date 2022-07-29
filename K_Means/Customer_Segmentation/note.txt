@@ -1,0 +1,37 @@
+Create stimulated dataset
+
+  make_blobs function from sklearn.datasets
+  X,y = make_blobs(n_samples, centers, cluster_std)
+  ex: X, y = make_blobs(n_samples = 5000, centers = [[4, 4], [-2, -1], [2, -3],[1,1]],cluster_std = 0.9) 
+  --> Create 5000 sample datapoints (each point has 2 feature) and clasify in 4 cluster with respective, the standard deviation of clusters is 0.9
+
+K_means:
+
+  from sklearn.cluster import KMeans
+
+  Syntax: KMeans(init = 'k-means++',n_clusters,n_init)
+  https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html
+
+  KMeans.fit(X)
+    
+  Atributes:
+
+    KMeans.labels_ : Label matrix for all datapoint in X matrix
+    KMeans.cluster_centers: Matrix of cluster centers
+    KMeans.inertia_: Sum of squared distances of samples to their closest cluster center, weighted by the sample weights if provided.
+
+Scaling data:
+  from sklearn.preprocessing import StandardScaler
+  dataset = StandardScaler().fit_transform(x)
+
+Visualize:
+  plt.scatter(x,y,cmap,size,alpha...)
+3D Visulization
+from mpl_tookits.mplot3D import Axes3D
+https://matplotlib.org/stable/api/_as_gen/mpl_toolkits.mplot3d.axes3d.Axes3D.html
+
+
+  
+
+ 
+
