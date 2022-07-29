@@ -1,0 +1,21 @@
+The data includes the following features:
+
+1. Customer ID
+
+2. Customer Gender
+
+3. Customer Age
+
+4. Annual Income of the customer (in Thousand Dollars)
+
+5. Spending score of the customer (based on customer behaviour and spending nature)
+
+sns.distplot(data)
+sns.barplot(x,y)
+sns.scatterplot(x,y,s,hue)
+ 
+ 
+3dplot
+
+fig = plt.figure(figsize)
+ax  fig.add_subplot(nrows,ncols,projection = '3d')
