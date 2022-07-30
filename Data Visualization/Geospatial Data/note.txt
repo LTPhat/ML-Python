@@ -1,0 +1,19 @@
+import foilum
+
+map = folium.Map(location=[lat,lng],zoom_start,tiles)
+
+Map with marker
+
+incident = folium.map.FeatureGroup()  #incident is name of a group of features
+
+incident.add_child(folium.feature.CircleMarker(location =[lat,lng], radius, color, fill = True, fill_color, fill_opacity))
+#add_child to add feature
+
+map.add_child(incident) #Add created group of features to folium map
+
+from folium import plugins
+incidents = plugins.MarkerCluster().add_to(sanfran_map)
+for lat, lng, label in zip(df_incident.Y,df_incident.X, df_incident.Category):
+    folium.Marker(location = [lat,lng],popup = label,icon = None).add_to(incidents)
+    
+    
