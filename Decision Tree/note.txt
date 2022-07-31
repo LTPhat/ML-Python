@@ -1,1 +1,16 @@
+Algorithm:
+1) Select the best predictive feature in the dataset to be the root of tree
+2) Test other atributes to split the subtree created
+
+The impurity of nodes can be calculated by entropy.
+Entropy is the amount of information disorder or the amount of randomness in the data
+
+The lower the entropy, the less uniform of distribution, the purer the node 
+
+Entropy = -p(A)log(p(A)) - p(B)log(p(B))
+
+
+Information gain is the information that can increase the level of certainty after spliting 
+
+Information gain = Entropy_before - Entropy_after 
 
