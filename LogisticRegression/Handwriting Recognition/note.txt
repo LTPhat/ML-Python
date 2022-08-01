@@ -1,0 +1,5 @@
+# Load data from https://www.openml.org/d/554
+X_all, y_all = fetch_openml("mnist_784", version=1, return_X_y=True, as_frame=False)
+#Set time training
+t0 = time.time()
+traning_time = time.time()-t0
